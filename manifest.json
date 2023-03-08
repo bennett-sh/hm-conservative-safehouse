@@ -1,10 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"id": "BSh.ConservativeSafehouse",
 	"name": "Conservative Safehouse",
 	"description": "Your safehouse is now conservative: the perfect counterpart for everyone complaining about the liberal safehouse mod!",
 	"authors": ["BSh"],
 	"contentFolders": ["content"],
-	"frameworkVersion": "2.15.1"
+	"frameworkVersion": "2.15.1",
+	"updateCheck": "https://github.com/bennett-sh/hm-conservative-safehouse/releases/latest/download/updates.json"
 }
