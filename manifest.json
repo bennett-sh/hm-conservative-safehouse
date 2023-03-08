@@ -1,9 +1,10 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Incredible Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
+	"id": "BSh.ConservativeSafehouse",
+	"name": "Conservative Safehouse",
+	"description": "Your safehouse is now conservative: the perfect counterpart for everyone complaining about the liberal safehouse mod!",
+	"authors": ["BSh"],
+	"contentFolders": ["content"],
 	"frameworkVersion": "2.15.1"
 }

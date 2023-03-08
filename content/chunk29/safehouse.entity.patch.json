@@ -1,0 +1,240 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{ "RemoveEntityByID": "e07c81c25ad49639" },
+		{ "RemoveEntityByID": "6dc8b9e643da837f" },
+		{ "RemoveEntityByID": "901665526a9ff11c" },
+		{
+			"SubEntityOperation": [
+				"b6c08ae62887f029",
+				{ "RemoveEventConnection": ["Dropped", "Activate", "6dc8b9e643da837f"] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"80a351216ee45b53",
+				{ "RemoveEventConnection": ["OnTrue", "Activate", "e07c81c25ad49639"] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"80a351216ee45b53",
+				{ "RemoveEventConnection": ["OnFalse", "Deactivate", "e07c81c25ad49639"] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bCoverToCover", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bCoverTakedown", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bCoverScale", { "type": "bool", "value": false }] }
+			]
+		},
+		{ "SubEntityOperation": ["547626b5eeabc203", { "AddProperty": ["m_bFire", { "type": "bool", "value": true }] }] },
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bHairTrigger", { "type": "bool", "value": true }] }
+			]
+		},
+		{ "SubEntityOperation": ["547626b5eeabc203", { "AddProperty": ["m_bAim", { "type": "bool", "value": true }] }] },
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bBlindFire", { "type": "bool", "value": true }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bCloseCombatFakeSwing", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bCloseCombatStandard", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bCloseCombatProps", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bCloseCombatChoke", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bCloseCombatPistolFinish", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bCloseCombatSnapNeck", { "type": "bool", "value": false }] }
+			]
+		},
+		{ "SubEntityOperation": ["547626b5eeabc203", { "AddProperty": ["m_bRun", { "type": "bool", "value": false }] }] },
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bCanHolsterItems", { "type": "bool", "value": false }] }
+			]
+		},
+		{ "SubEntityOperation": ["547626b5eeabc203", { "AddProperty": ["m_bItems", { "type": "bool", "value": true }] }] },
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bInstinct", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bInteractions", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bDragBody", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bDropItem", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bPickupItem", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bKickVictimOverLedge", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bPushVictimThroughWindowAndRail", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bGrabVictim", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bCloseCombat", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bHideInCloset", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bOperateCPDoor", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bDumpBody", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bThrowBodyOverRail", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bClimbWindow", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bFiberWireKill", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bPullVictimFromWindow", { "type": "bool", "value": false }] }
+			]
+		},
+		{ "SubEntityOperation": ["547626b5eeabc203", { "AddProperty": ["m_bLadder", { "type": "bool", "value": false }] }] },
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bTakeClothes", { "type": "bool", "value": false }] }
+			]
+		},
+		{ "SubEntityOperation": ["547626b5eeabc203", { "AddProperty": ["m_bCover", { "type": "bool", "value": false }] }] },
+		{ "SubEntityOperation": ["547626b5eeabc203", { "AddProperty": ["m_bLedges", { "type": "bool", "value": false }] }] },
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bOpenPauseMenu", { "type": "bool", "value": false }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"547626b5eeabc203",
+				{ "AddProperty": ["m_bOpenLogbook", { "type": "bool", "value": false }] }
+			]
+		},
+		{ "SubEntityOperation": ["547626b5eeabc203", { "AddProperty": ["m_bSneak", { "type": "bool", "value": false }] }] },
+		{
+			"SubEntityOperation": [
+				"21b00c44646306c",
+				{ "RemoveEventConnection": ["OnTrue", "Activate", "901665526a9ff11c"] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"21b00c44646306c",
+				{ "RemoveEventConnection": ["OnFalse", "Deactivate", "901665526a9ff11c"] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9223ef4fd2a1bb9c",
+				{ "RemoveEventConnection": ["Out", "Deactivate", "6dc8b9e643da837f"] }
+			]
+		}
+	],
+	"patchVersion": 6
+}
